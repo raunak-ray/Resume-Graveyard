@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
-import { Creepster, Geist, Geist_Mono, Great_Vibes, Nosifer } from "next/font/google";
+import {
+  Creepster,
+  Geist,
+  Geist_Mono,
+  Great_Vibes,
+  Nosifer,
+} from "next/font/google";
 
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -10,16 +16,16 @@ const geistSans = Geist({
 });
 
 const nosifier = Nosifer({
-  weight:"400",
+  weight: "400",
   subsets: ["latin"],
-  variable:"--font-nosifer",
-})
+  variable: "--font-nosifer",
+});
 
 const creepster = Creepster({
-  weight:"400",
+  weight: "400",
   subsets: ["latin"],
-  variable:"--font-creepster",
-})
+  variable: "--font-creepster",
+});
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -30,7 +36,7 @@ const greatVibes = Great_Vibes({
   weight: "400",
   subsets: ["latin"],
   variable: "--font-great-vibe",
-})
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",

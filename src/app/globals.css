@@ -50,19 +50,21 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif, var(--font-nosifer), var(--font-creepster), var(--font-great-vibes);
+  font-family:
+    Arial, Helvetica, sans-serif, var(--font-nosifer), var(--font-creepster),
+    var(--font-great-vibes);
 }
 
 :root {
   --background: oklch(18.459% 0.00327 17.102);
-  --foreground: oklch(0.145 0 0);
+  --foreground: oklch(100% 0.00011 271.152);
   --card: oklch(16.376% 0.00002 271.152);
   --card-foreground: oklch(100% 0.00011 271.152);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
+  --primary: oklch(98.212% 0.00011 271.152);
   --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
+  --secondary: oklch(86.254% 0.02354 17.39);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
